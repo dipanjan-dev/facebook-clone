@@ -1,0 +1,108 @@
+.header{
+    display: flex;
+    padding: 5px 10px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    justify-content: space-between;
+    box-shadow: 0px 0px 4px #ccc;
+}
+.header .header__left{
+    display: flex;
+    align-items: center;
+}
+.header .header__left img{
+    height: 45px;
+}
+.header .header__left .header__search_box{
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    padding: 0px 10px;
+    height: 45px ;
+    margin-left: 1px;
+}
+.header .header__left .header__search_box .search__input{
+    border: 0;
+    background: transparent;
+    outline: none;
+}
+.header .header__left .header__search_box .search__input{
+    border: 0;
+    background: transparent;
+    min-width: 200px;
+}
+
+.header .header__middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .header__middle .menu__option{
+    margin-right: 50px;
+}
+.header .header__middle .menu__option:hover{
+    cursor: pointer;
+ 
+    transition: 0.4s;
+}
+.header .header__middle .menu__option svg{
+    color: #707070; 
+    padding: 3px 20px;
+  
+}
+.header .header__middle .menu__option svg:hover{
+    color: #1b74e4;   
+    transition: 0.4s;
+}
+.header .header__middle .active svg{
+    color: #1b74e4;   
+}
+.header .header__middle .active{
+    position: relative;
+}
+.header .header__middle .active::after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    left: 0;
+    right: 0;
+    bottom: -9px;
+    background-color: #1b74e4;
+}
+.header .header__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .header__right .profile__info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.header .header__right .profile__info p{
+   font-size: 16px;
+   font-weight: 600;
+   margin-right: 20px;
+   margin-left: 5px;
+}
+.header .header__right .profile__info .MuiAvater-root{
+   height: 30px;
+   width: 30px;
+
+}
+.header .header__right .MuiButtonBase-root {
+    height: 45px;
+    width: 45px;
+    margin: 0px 5px;
+    background-color: #f0f0f0;
+    color: #000;
+}
+.header .header__right .MuiButtonBase-root svg {
+    color: #000;
+}

@@ -1,0 +1,44 @@
+.story__feed{
+    display: flex;
+}
+.story{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 130px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin: 0px 5px;
+    transition: 0.5;
+    cursor: pointer;
+    overflow: hidden;
+}
+.story::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(0,0,0,0.5021358885351015) 35%, rgba(0,0,0,1) 100%);
+    
+}
+.story:hover{
+    transform: scale(1.05);
+    transition: 0.5;
+}
+.story .MuiAvatar-circular{
+    border: 4px solid #185ADB;
+    border-radius: 50px;
+    margin: 10px;
+}
+.story p{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    z-index: 10;
+}

@@ -1,0 +1,50 @@
+.friendList .friend__header {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.friendList {
+    padding-bottom: 50px;
+}
+.friendList .friend__header .friend__header__left{
+    display: flex;
+}
+.friendList .friend__header .friend__header__left h4{
+    color: #5f5f5f;
+}
+
+.friendList .friend__header .friend__header__right svg{
+    margin-left: 20px;
+    color: #5f5f5f;
+}
+
+
+.friendList .list__friends .friend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+.friendList .list__friends .friend:hover {
+    background-color: #dfdfdf;
+    cursor: pointer;
+}
+.friendList .list__friends .friend p{
+  margin-left: 10px;
+  font-weight: 600;
+}
+.friendList .list__friends .friend .MuiAvatar-root{
+    position: relative;
+    height: 30px;
+    border-radius: 50px;
+    width: 30px;
+}
+.friendList .list__friends .online .MuiAvatar-root{
+    position: relative;
+    height: 30px;
+    width: 30px;
+}

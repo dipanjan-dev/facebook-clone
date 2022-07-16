@@ -1,0 +1,16 @@
+.sidebar__row{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+.sidebar__row p{
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.sidebar__row:hover{
+    background-color: #dcdcdc;
+    cursor: pointer;
+    border-radius: 10px;
+}
